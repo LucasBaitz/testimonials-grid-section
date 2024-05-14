@@ -16,8 +16,8 @@ const Home: React.FC = () => {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center align-middle p-5 md:px-72 md:justify-center  bg-[#EDF2F8]">
-      <div className="w-full xl:grid flex flex-col gap-5 xl:grid-cols-4">
+    <main className="flex min-h-screen flex-col items-center align-middle py-5 md:px-20 md:justify-center bg-[#EDF2F8]">
+      <div className="w-full xl:grid flex flex-col gap-10 xl:grid-cols-4">
         {testimonials.map((t, i) => (
           <TestimonialCard
             key={t.author.name}
